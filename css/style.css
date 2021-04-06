@@ -209,7 +209,7 @@ input, select {
 .top{
   width: 100vw;
   height: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed;効かないので要検証 */
 }
 
 .main-visual{

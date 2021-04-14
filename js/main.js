@@ -1,7 +1,7 @@
 $(function() {
   // メニュー表示イベント
   $("#menu").click(function(){
-    $(".menu-box").fadeIn();
+    $(".menu-box").slideToggle();
   });
   // スクロールイベント（未完成）
   // $(top).scroll(function(){
